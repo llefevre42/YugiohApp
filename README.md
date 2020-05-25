@@ -18,5 +18,9 @@ crée une application ayant pour but d'aider les joueur de Yu-gi-oh pendant leur
 - refaire la charte graphique pour donner une vraie identité à l'application
 - proposer une option pour importer l'image de son deck
 
-![](YugiAppChangeImage.png)
+![](YugiAppChangeImg.png)
+
+## Credit :
+
+- 2020 studio Dice/SHUEISHA, TV TOKYO, KONAMI
 
