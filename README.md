@@ -12,7 +12,7 @@ créer une application ayant pour but d'aider les joueurs de Yu-gi-oh pendant le
 
 ![](YugiBasicCalcul.png)
 
-## Patch avec la realase 1.0:   
+## Patch avec la release 1.0:   
 - Empêcher la mise en veille de l'appareil (comme pour une vidéo)
 
 ## Patch a venir :
