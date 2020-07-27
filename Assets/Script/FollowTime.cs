@@ -14,7 +14,7 @@ public class FollowTime : MonoBehaviour
     void Update()
     {
         if (PlayerPrefs.GetInt("paused") == 0)
-            timeLeft -= Time.deltaTime;
+            timeLeft += Time.deltaTime;
     }
 
     public void passedTime()

@@ -12,9 +12,10 @@ créer une application ayant pour but d'aider les joueurs de Yu-gi-oh pendant le
 
 ![](YugiBasicCalcul.png)
 
-## Mise a jour possible :
-
+## Patch avec la realase 1.0:   
 - Empêcher la mise en veille de l'appareil (comme pour une vidéo)
+
+## Patch a venir :
 - refaire la charte graphique pour donner une vraie identité à l'application
 - proposer une option pour importer l'image de son deck
 

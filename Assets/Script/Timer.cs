@@ -15,6 +15,7 @@ public class Timer : MonoBehaviour
 
     void Start()
     {
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
         timeLeft = PlayerPrefs.GetFloat("time");
         if(PlayerPrefs.GetInt("paused") == 1)
             img.GetComponent<Image>().color = new Color(255, 178, 0);
@@ -27,11 +28,11 @@ public class Timer : MonoBehaviour
         
         value.text = min.ToString("00") + ":" + sec.ToString("00");
         if (PlayerPrefs.GetInt("paused") == 0)
-            timeLeft -= Time.deltaTime;
-        if(timeLeft <= 0)
+            timeLeft += Time.deltaTime;
+        if(timeLeft >= 2400)
         {
-            PlayerPrefs.SetInt("paused", 1);
-            timeLeft = 0;
+            //PlayerPrefs.SetInt("paused", 1);
+            //timeLeft = 0;
             img.GetComponent<Image>().color = new Color(255, 0, 0);
         }
 

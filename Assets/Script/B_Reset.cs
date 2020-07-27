@@ -15,7 +15,7 @@ public class B_Reset : MonoBehaviour
    }
     public void ResetTime()
     {
-        PlayerPrefs.SetFloat("time", 2400);
+        PlayerPrefs.SetFloat("time", 0);
         PlayerPrefs.SetInt("paused", 1);
         SceneManager.LoadScene("MainScreen");
    }
